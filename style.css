@@ -1,3 +1,17 @@
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;  /* circle image */
+  object-fit: cover;    /* image crop / fit */
+  margin: 20px 0;
+  border: 3px solid #00bfff;
+  transition: transform 0.3s;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1);
+}
+
 /* Basic Reset */
 * {
   margin: 0;
@@ -150,3 +164,4 @@ button:hover {
     flex-direction: column;
   }
 }
+
